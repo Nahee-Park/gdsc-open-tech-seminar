@@ -6,7 +6,7 @@ highlighter: shiki
 
 # theme: light-icons
 # the image source
-image: ./src/1.png
+image: '/1.png'
 title: 나만의 챗지피티 만들기
 # themeConfig:
 #   logoHeader: 'https://s3.ap-northeast-2.amazonaws.com/sopt-makers-internal//prod/image/project/6ab6020f-37d2-466e-829b-22697f16c4e3-IMG_9727.JPG'
@@ -765,5 +765,5 @@ theme: apple-basic
 colorSchema: 'auto'
 highlighter: shiki
 
-image: ./src/last.png
+image: '/last.png'
 ---
