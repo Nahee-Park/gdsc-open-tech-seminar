@@ -12,12 +12,6 @@ title: 나만의 챗지피티 만들기
 layout: intro-image-right
 image: '/profile.jpg'
 ---
-<header>
-    <a href="https://github.com/your-username" target="_blank">
-        <i class="fab fa-github"></i> Visit My GitHub
-    </a>
-</header>
-
 # Speaker
 
 박나희 (devstone) <br>
