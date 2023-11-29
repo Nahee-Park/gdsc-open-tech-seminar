@@ -3,15 +3,8 @@ layout: image
 theme: apple-basic
 colorSchema: 'auto'
 highlighter: shiki
-
-# theme: light-icons
-# the image source
-image: '/1.png'
+image: '/intro.png'
 title: 나만의 챗지피티 만들기
-# themeConfig:
-#   logoHeader: 'https://s3.ap-northeast-2.amazonaws.com/sopt-makers-internal//prod/image/project/6ab6020f-37d2-466e-829b-22697f16c4e3-IMG_9727.JPG'
-#   eventLogo: '/github.png'
-#   eventUrl: 'https://github.com/Nahee-Park'
 
 ---
 
@@ -19,6 +12,11 @@ title: 나만의 챗지피티 만들기
 layout: intro-image-right
 image: '/profile.jpg'
 ---
+<header>
+    <a href="https://github.com/your-username" target="_blank">
+        <i class="fab fa-github"></i> Visit My GitHub
+    </a>
+</header>
 
 # Speaker
 
@@ -761,5 +759,5 @@ export const getGptResponse = async (text) => {
 ```
 ---
 layout: image
-image: '/last.png'
+image: '/end.png'
 ---
