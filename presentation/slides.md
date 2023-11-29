@@ -761,9 +761,5 @@ export const getGptResponse = async (text) => {
 ```
 ---
 layout: image
-theme: apple-basic
-colorSchema: 'auto'
-highlighter: shiki
-
 image: '/last.png'
 ---
