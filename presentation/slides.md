@@ -232,6 +232,19 @@ npm install openai styled-components react-icons
 # 우리가 어떤 식으로 뷰와 로직을 가져갈 지 정리해보기 
 <br>
 
+![폴더구조](/8-3.png)
+
+<style>
+img {
+    max-width: 70%;
+}
+</style>
+
+---
+
+# 우리가 어떤 식으로 뷰와 로직을 가져갈 지 정리해보기 
+<br>
+
 ![폴더구조](/8-2.png)
 
 <style>
@@ -751,6 +764,13 @@ export const getGptResponse = async (text) => {
 };
 
 ```
+---
+
+# Contact 
+
+- Linkedin : https://www.linkedin.com/in/park-nahee-100890218/
+- Github : https://github.com/Nahee-Park
+- Instagram : https://www.instagram.com/_devstone
 ---
 layout: image
 image: '/end.png'
