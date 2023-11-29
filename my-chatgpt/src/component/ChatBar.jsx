@@ -14,19 +14,6 @@ function ChatingBar({ onSend }) {
     reset();
   };
 
-  {
-    /* Enter를 눌렀으면 전송, Shift+Enter를 눌렀으면 입력이 되도록 인풋창 내부에 onKeyDown 이벤트를 제어할 함수 */
-  }
-  const handleKeyDown = (e) => {
-    if (e.key !== "Enter") return;
-    if (e.shiftKey) return;
-    if (!value.trim()) return;
-    e.preventDefault();
-
-    onSend(value);
-    reset();
-  };
-
   return (
     <StChatingBar onSubmit={handleSubmit}>
       {/* 채팅을 입력받을 창, useInput에서 받은 프로퍼티를 이용해 인풋값을 관리함 */}
@@ -35,7 +22,6 @@ function ChatingBar({ onSend }) {
         value={value}
         onChange={onChange}
         placeholder="Type a message..."
-        onKeyDown={handleKeyDown}
       />
       {/* 채팅 전송 버튼 */}
       <StButton type="submit">
